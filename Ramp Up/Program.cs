@@ -54,62 +54,6 @@ class Program
         Console.WriteLine($"{character5}, the swift and agile, roamed the lands wearing the legendary {equipment5}.");
         Console.WriteLine("Their destinies intertwined as they embarked on a quest to save Airarret from an impending corruption.");
 
-        // Output of numeric sequence
- Console.WriteLine("--------------------------------------------------");
-Console.Write("Enter a positive integer: ");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num <= 0)
-{
-    Console.WriteLine("Invalid input");
-}
-else
-{
-    for (int i = 1; i <= num; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            Console.Write(j + " ");
-        }
-        Console.WriteLine();
-    }
-}
-
-// Print the sum of numbers
-Console.WriteLine("--------------------------------------------------");
-Console.Write("Enter a positive integer: ");
-num = Convert.ToInt32(Console.ReadLine());
-if (num <= 0)
-{
-    Console.WriteLine("Invalid input");
-}
-else
-{
-    int sumNum = 0;
-    for (int i = 1; i <= num; i++)
-    {
-        sumNum += i;
-    }
-    Console.WriteLine($"The sum of numbers from 1 to {num} is: {sumNum}");
-}
-
-// Output of numeric sequence
-Console.WriteLine("--------------------------------------------------");
-Console.Write("Enter a positive integer: ");
-num = Convert.ToInt32(Console.ReadLine());
-if (num <= 0)
-{
-    Console.WriteLine("Invalid input");
-}
-else
-{
-    for (int i = num; i >= 1; i--)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            Console.Write(j + " ");
-        }
-        Console.WriteLine();
-    }
-}
+       
     }
 }
